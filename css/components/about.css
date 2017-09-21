@@ -1,0 +1,32 @@
+#about-page h2 {
+  text-align: center;
+  padding: 40px 0 0;
+  font-size: 30px; }
+
+#about-page .linegofl {
+  width: 100%;
+  border-bottom: 1px solid #E0E0E0;
+  position: relative;
+  text-align: center;
+  margin: 40px 0; }
+  #about-page .linegofl img {
+    position: relative;
+    top: 24px; }
+
+#about-page .content .description {
+  padding: 60px 0; }
+
+#about-page .content .wrap-lists h3 {
+  font-size: 30px;
+  margin: 0 0 30px; }
+
+#about-page .content .wrap-lists .items {
+  margin: 0 0 50px; }
+  #about-page .content .wrap-lists .items .avatar {
+    float: left;
+    margin: 0 30px 30px 0; }
+  #about-page .content .wrap-lists .items h4 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 30px; }

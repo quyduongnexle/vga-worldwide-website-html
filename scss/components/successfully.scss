@@ -1,0 +1,86 @@
+.successfully
+{
+
+	.row 
+	{
+		div
+		{
+			.text-content
+			{
+				position: relative;
+				float: left;
+				width: 100%;
+				text-align: center;
+				margin-bottom: 30px;
+				span 
+				{
+					line-height: 32px;
+					a 
+					{
+						font-weight: bold;
+						font-family: "istok_webbold";
+					}
+					b 
+					{
+						color: #35A211;
+					}
+				}
+			}
+		}
+		.btn-sign
+		{
+			margin-bottom: 30px;
+		}
+	}
+}
+
+.row-one
+{
+	padding: 30px 0px;
+	p 
+	{
+		font-size: 36px;
+		text-align: center;
+		position: relative;
+		width: 100%;
+		font-weight: normal;
+		color: #000;
+		text-transform: uppercase;
+	}
+	.linegofl
+	{
+		width: 100%;
+		border-bottom: 1px solid #E0E0E0;
+		height: 45px;					
+		float: left;
+		position: relative;
+		margin-bottom: 50px;
+		text-align: center;
+		img 
+		{
+			width: 71px;
+			height: 60px;
+			position: relative;
+			top: 8px;
+			background-color: #fff;
+			padding: 0px;
+		}
+	}
+}
+.row 
+{
+	.btn-sign
+	{
+		text-align: center;
+
+		.btn-success 
+		{
+			border-radius: 20px;
+			padding: 10px 30px;
+			background-color: #35A211;
+			border-color: #35A211;
+		}
+	}
+
+	
+}

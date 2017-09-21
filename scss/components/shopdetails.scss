@@ -1,0 +1,117 @@
+.clubcharity-detail
+{
+	.text-deitails
+	{
+		position: relative;
+		margin-bottom: 30px;
+		div 
+		{
+			span 
+			{
+
+			}
+		}
+	}
+	.right-shop
+	{
+		.title-shop
+		{
+			position: relative;
+			float: left;
+			width: 100%;
+			font-size: 25px;
+			border-bottom: 1px solid #ccc;
+			padding-bottom: 15px;
+		}
+		.Quantity
+		{
+			position: relative;
+			float: left;
+			width: 100%;
+			margin-bottom: 0px;
+			margin-top: 20px;
+			label
+			{
+				position: relative;
+				float: left;
+				width: 25%;
+			}
+			.form-control
+			{
+				position: relative;
+				float: left;
+				width: 10%;
+				border-radius: 0px;
+				height: 30px;
+
+				top: -5px;
+			}
+			.btn-group
+			{
+				position: relative;
+				float: left;
+				width: 10%;
+				top: -10px;
+				left: 5px;
+				.plus-button, .minus-button
+				{
+					border: 0px;
+					background-color: transparent;
+				}
+			}
+			.Total
+			{
+				position: relative;
+				float: left;
+				width: 100%;
+				margin-bottom: 20px;
+				margin-top: 20px;
+				span 
+				{
+					float: left;
+					position: relative;
+					width: 15%;
+				}
+				.red 
+				{
+					color: #D0011B;
+					font-size: 30px;
+					width: 30%;
+					top: -10px;
+				}
+			}
+		}
+		.Total-shop
+		{
+			position: relative;
+			float: left;
+			width: 100%;
+			ul 
+			{  
+				padding: 0px;
+				li 
+				{
+					list-style: none;
+					input 
+					{
+						border-radius: 0px;
+						    margin-bottom: 15px;
+    margin-top: 10px;
+					}
+					textarea
+					{
+						border-radius: 0px;
+						    margin-bottom: 15px;
+    margin-top: 10px;
+					}
+				}
+			}
+		}
+	}
+}
+.btn-success {
+    border-radius: 20px;
+    padding: 10px 30px;
+    background-color: #35A211;
+    border-color: #35A211;
+}

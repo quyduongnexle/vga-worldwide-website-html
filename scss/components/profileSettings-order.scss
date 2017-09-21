@@ -1,0 +1,116 @@
+.table-striped
+{
+	padding: 0px;
+	.row
+	{
+		div
+		{
+			.table
+			{
+				thead
+				{
+					tr
+					{
+						th
+						{
+							font-family: 'istok_webbold';
+							border-bottom: 1px solid #ddd;
+							padding: 20px 8px;
+						}
+					}
+				}
+				tbody
+				{
+					tr
+					{
+						border-bottom: 1px solid #ddd;
+						td
+						{
+							border-top: 0px solid #ddd;
+							padding: 18px 8px;
+						}
+						.status-green
+						{
+							color: #35A211;
+						}
+						.status-red
+						{
+							color: #D0021B;
+						}
+						.status-black
+						{
+							color: #9B9B9B;
+						}
+						.td-actions
+						{
+							.edit
+							{
+								color: #D8BB44;
+							}
+							.delete
+							{
+								color: #59391F;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.subcription-detail {
+	.table
+	{
+		thead
+		{
+			tr
+			{
+				th
+				{
+					&.center {
+						text-align: center;
+					}
+				}
+			}
+		}
+		tbody
+		{
+			tr
+			{
+				border-bottom: 1px solid #ddd;
+				td
+				{
+					border-top: 0px solid #ddd;
+					padding: 18px 8px;
+					&.center {
+						text-align: center;
+					}
+				}
+				.status-green
+				{
+					color: #35A211;
+				}
+				.status-blue {
+					color: blue;
+				}
+				.status-grey {
+					color: #ddd;
+				}
+				.status-red
+				{
+					color: #D0021B;
+				}
+				.status-black
+				{
+					color: #9B9B9B;
+				}
+				.td-actions
+				{
+					img {
+						display: inline-block;
+					}
+				}
+			}
+		}
+	}
+}

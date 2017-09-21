@@ -1,0 +1,112 @@
+
+/*---------------pu -------------------------*/
+.modaladd
+{
+	.modal-dialog
+	{
+		.modal-content
+		{			
+			.modal-body
+			{
+				.row 
+				{
+					.tab-content 
+					{
+						.tab-pane
+						{
+							.row 
+							{
+								.drop-list
+								{
+									
+								}
+								.open 
+								{
+									ul 
+									{
+										position: relative;
+									}
+									.dropdown-menu 
+									{
+										text-align: left !important;
+										position: relative !important;
+										float: left !important;
+										width: 100% !important;
+										li 
+										{
+											display: inline-block !important;
+											float: left !important;
+											width: 100% !important;
+											text-align: left !important;
+
+										}
+										
+									}
+								}
+								.pu 
+								{
+									position: relative;
+									float: left;
+									width: 100%;
+									padding: 0px 45px;
+									padding: 0px 20px;
+									margin-bottom: 50px;
+									h3 
+									{
+										font-size: 20px;
+										margin-bottom: 30px;
+										margin-top: 25px;
+										padding-left: 25px;
+									}
+									.col
+									{
+
+										img, span, input 
+										{
+											position: relative;
+											float: left;										
+											text-align: center;
+										}
+										img 
+										{
+											height: 65px;
+											padding-left: 30%;
+										}
+										span 
+										{
+											width: 100%;
+											margin: 10px 0px;
+										}
+										input 
+										{
+											left: 47%;
+										}
+									}
+								}
+								.checkbox-th
+								{
+									.checkbox
+									{
+										label
+										{
+											margin-bottom: 20px;
+											span 
+											{
+												i 
+												{
+													color: #35A211;
+												}
+											}
+										}
+									}
+								}
+							}
+
+						}
+						
+					}
+				}
+			}
+		}
+	}
+}

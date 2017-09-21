@@ -1,0 +1,261 @@
+.slide
+{
+	.carousel-control.left:hover,
+	.carousel-control.right:hover
+	{
+		background-image: none !important;
+	}
+	.carousel-control.left,
+	.carousel-control.right
+	{
+		background-image: none !important;
+	}
+	.left, .right
+	{
+		span 
+		{
+			font-size: 24px;
+			width: 40px;
+			height: 40px;
+			border-radius: 40px;
+			background-color: red;
+			padding: 7px;
+		}
+		.glyphicon
+		{
+			top: 44%;
+		}
+	}
+	.carousel-indicators
+	{
+		bottom: -150px;
+
+		li 
+		{
+			border: 1px solid #D8D8D8;
+			background-color: #fff;
+		}
+		li.active
+		{
+			background-color: #35A211;
+		}
+	}
+	.carousel-inner
+	{
+		.item
+		{
+			.fill
+			{
+
+			}
+			.One
+			{
+				background-image:url('../images/banner01.jpg');
+			}
+			.One2
+			{
+				background-image:url('../images/banner01.jpg');
+			}
+			.One3
+			{
+				background-image:url('../images/banner01.jpg');
+			}
+		}
+		.item.active
+		{
+
+		}
+
+		.carousel-caption
+		{
+			bottom: 44%;
+			h2 
+			{
+				line-height: 39px;
+				font-weight: normal;
+				font-size: 26px;
+				font-family: "istok_webbolditalic";
+			}
+			button
+			{
+				text-align: center;
+				padding: 14px 70px;
+				border-radius: 0px;
+				background-color: transparent;
+				border: 1px solid;
+				font-size: 16px;
+			}
+		}
+	}
+}
+
+/*---------------menu 1 ----------------*/
+.navbar-bg
+{
+	background-color: #222;
+    border-color: #080808;
+    position: relative;
+	@media (max-width: 991px){
+		background-color: transparent;
+		border-color: transparent;
+	}
+	@media (max-width: 767px){
+		background-color: #222;
+    	border-color: #080808;
+	}
+	@media (max-width: 480px){
+		background-color: #222;
+    	border-color: #080808;
+	}
+	.container
+	{
+		.navbar-header
+		{
+			@media (max-width: 991px){
+
+			}
+			@media (max-width: 767px){
+				height: 78px;
+			}
+			@media (max-width: 480px){
+				height: 78px;
+			}
+			.navbar-toggle
+			{
+				.icon-bar
+				{
+					background-color: #000;
+				}
+			}
+		}
+	}
+}
+.navbar-bg .navbar-nav>.open>a, 
+.navbar-bg .navbar-nav>.open>a:focus, 
+.navbar-bg .navbar-nav>.open>a:hover
+{
+	color: #000;
+	background-color: transparent;
+}
+.navbar-bg .navbar-nav
+{
+	padding: 10px 0px 20px 0px;
+}
+
+.navbar-bg .navbar-nav>li>a
+{
+	color: #9B9B9B;
+	font-size: 15px;
+}
+
+.navbar-bge .navbar-nav>.active>a, 
+.navbar-bg .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover
+{
+	background-color: transparent;
+	color: #fff;
+}
+.navbar-bg .navbar-nav>.active>span
+{
+	position: absolute;
+	top: 42px;
+	left: 42%;
+	width: 30px;
+	height: 30px;
+	background-image: url(../images/activer-link.png);
+	background-repeat: no-repeat;
+}
+.navbar-bg .navbar-nav>.active>a 
+{
+	color: #fff;
+}
+.navbar-bg .navbar-nav>li>a:hover
+{
+	color: #fff;
+	background-color: transparent;
+}
+
+/*---------------menu 2 ----------------*/
+.navbar-inverse
+{
+	background-color: transparent;
+		border-color: transparent;
+	@media (max-width: 991px){
+		background-color: transparent;
+		border-color: transparent;
+	}
+	@media (max-width: 767px){
+		background-color: #222;
+    	border-color: #080808;
+	}
+	@media (max-width: 480px){
+		background-color: #222;
+    	border-color: #080808;
+	}
+	.container
+	{
+		.navbar-header
+		{
+			@media (max-width: 991px){
+
+			}
+			@media (max-width: 767px){
+				height: 78px;
+			}
+			@media (max-width: 480px){
+				height: 78px;
+			}
+			.navbar-toggle
+			{
+				.icon-bar
+				{
+					background-color: #000;
+				}
+			}
+		}
+	}
+}g
+.navbar-inverse .navbar-nav>.open>a, 
+.navbar-inverse .navbar-nav>.open>a:focus, 
+.navbar-inverse .navbar-nav>.open>a:hover
+{
+	color: #000;
+	background-color: #fff;
+}
+.navbar-inverse .navbar-nav
+{
+	padding: 0px 0px 20px 0px;
+}
+
+.navbar-inverse .navbar-nav>li>a
+{
+	color: #9B9B9B;
+	font-size: 15px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover
+{
+	background-color: transparent;
+}
+.navbar-inverse .navbar-nav>.active>span
+{
+	position: absolute;
+	top: 42px;
+	left: 42%;
+	width: 30px;
+	height: 30px;
+	background-image: url(../images/activer-link.png);
+	background-repeat: no-repeat;
+}
+.navbar-inverse .navbar-nav>li>a:hover
+{
+	color: #fff;
+}
+.theme-content
+{
+	background-color: #f1f8ff;
+
+}
+

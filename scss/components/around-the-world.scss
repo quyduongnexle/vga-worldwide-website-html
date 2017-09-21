@@ -1,0 +1,96 @@
+#around-the-world {
+	.wrap-content-first {
+		img {
+			width: 100%;
+		}
+
+		ul {
+			padding: 0;
+			list-style: none;
+			display: inline-block;
+			width: 100%;
+			margin: 10px 0;
+
+			li {
+				font-size: 14px;
+				padding: 0;
+				float: left;
+				width: 100%;
+				color: #8B8B8B;
+			}
+		}
+	}
+
+	.world-arounament {
+		margin: 30px 0 0;
+		padding: 20px 0;
+		position: relative;
+		float: left;
+		width: 100%;
+		height: auto;
+		top: 0;
+		background-color: #f1f1f1;
+
+		.container {
+			.row {
+				.bg-world {
+					margin: 10px 0;
+					padding-right: 0;
+					padding-left: 0;
+
+					.col-md-4 {
+						z-index: 2;
+					}
+
+					div {
+						.box {
+							box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+							position: relative;
+							float: left;
+							background-color: #fff;
+							margin-bottom: 30px;
+
+							.item {
+								img {
+									width: 100%;
+								}
+							}
+
+							.title {
+								font-size: 16px;
+								padding: 15px;
+								float: left;
+								width: 100%;
+							}
+
+							.group-item {
+								i {
+									background-image: url("../images/icon-People.svg");
+									background-repeat: no-repeat;
+									width: 25px;
+									height: 19px;
+									position: relative;
+									float: left;
+									margin-left: 0;
+									bottom: 3px;
+								}
+							}
+
+							p {
+								font-size: 14px;
+								padding: 0 15px;
+								float: left;
+								width: 100%;
+								color: #8B8B8B;
+
+								&.group-item {
+									margin-bottom: 0;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

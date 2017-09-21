@@ -1,0 +1,62 @@
+.detail-subscription {
+  background: #F1F1F1; }
+  .detail-subscription .items {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: white;
+    border: 1px solid #eee;
+    border-bottom: 2px solid #eee; }
+    .detail-subscription .items h4 {
+      font-size: 20px;
+      padding: 20px;
+      text-align: center;
+      margin: 0; }
+    .detail-subscription .items .price {
+      background: #35A211;
+      color: white;
+      padding: 23px 10px;
+      text-align: center;
+      font-size: 25px; }
+      .detail-subscription .items .price span {
+        font-size: 35px; }
+      .detail-subscription .items .price .advertising {
+        list-style: none;
+        padding: 0 40px;
+        margin: 15px 0 30px; }
+        .detail-subscription .items .price .advertising li {
+          height: 60px;
+          line-height: 60px;
+          display: inline-block;
+          width: 100%;
+          color: #9B9B9B; }
+          .detail-subscription .items .price .advertising li span {
+            float: right;
+            color: #333;
+            font-weight: bold; }
+          .detail-subscription .items .price .advertising li.line-border {
+            height: 1px;
+            width: 100%;
+            background: #f0f0f0; }
+    .detail-subscription .items .linegofl {
+      height: 1px;
+      width: 100%;
+      background: #f0f0f0;
+      text-align: center; }
+      .detail-subscription .items .linegofl img {
+        display: inline-block;
+        width: 40px;
+        position: relative;
+        top: -20px; }
+    .detail-subscription .items .expired {
+      list-style: none;
+      padding: 25px 40px;
+      margin: 15px 0 0;
+      display: inline-block;
+      width: 100%; }
+      .detail-subscription .items .expired li {
+        float: left;
+        color: #9B9B9B;
+        font-size: 15px; }
+        .detail-subscription .items .expired li.date {
+          float: right;
+          color: #D0021B; }

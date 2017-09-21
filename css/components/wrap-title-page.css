@@ -1,0 +1,27 @@
+.wrap-title-page .row-comming {
+  padding: 0px; }
+  .wrap-title-page .row-comming h2 {
+    padding: 70px 0px 55px 0px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    font-weight: normal;
+    color: #000;
+    text-transform: uppercase; }
+  .wrap-title-page .row-comming .linegofl {
+    width: 100%;
+    border-bottom: 1px solid #E0E0E0;
+    height: 45px;
+    float: left;
+    position: relative;
+    margin-bottom: 50px;
+    text-align: center; }
+    .wrap-title-page .row-comming .linegofl img {
+      width: 71px;
+      height: 60px;
+      top: 7px;
+      background-color: #fff;
+      padding: 0;
+      display: inline-block;
+      position: relative; }

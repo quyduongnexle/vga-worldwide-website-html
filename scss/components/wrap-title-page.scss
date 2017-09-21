@@ -1,0 +1,36 @@
+.wrap-title-page {
+  .row-comming {
+    padding: 0px;
+
+    h2 {
+      padding: 55px 0px 55px 0px;
+      font-size: 30px;
+      text-align: center;
+      position: relative;
+      width: 100%;
+      font-weight: normal;
+      color: #000;
+      text-transform: uppercase;
+    }
+
+    .linegofl {
+      width: 100%;
+      border-bottom: 1px solid #E0E0E0;
+      height: 45px;
+      float: left;
+      position: relative;
+      margin-bottom: 50px;
+      text-align: center;
+
+      img {
+        width: 71px;
+        height: 60px;
+        top: 7px;
+        background-color: #fff;
+        padding: 0;
+        display: inline-block;
+        position: relative;
+      }
+    }
+  }
+}

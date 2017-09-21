@@ -1,0 +1,118 @@
+#my-groups {
+  background: #F1F1F1;
+
+  .box-table {
+    position: relative;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    background: white;
+    padding: 0 30px 30px;
+    margin: 30px 0;
+
+    .row-comming {
+      display: inline-block;
+      width: 100%;
+
+      h3 {
+        text-align: center;
+        font-size: 20px;
+        color: #000000;
+        margin: 35px 0px 25px 0px;
+      }
+    }
+
+    .my-group-fuc {
+      text-align: right;
+      display: inline-block;
+      width: 100%;
+      position: absolute;
+      right: 20px;
+      top: 20px;
+    }
+
+    .linegofl {
+      width: 100%;
+      border-bottom: 1px solid #E0E0E0;
+      height: 45px;
+      text-align: center;
+      position: relative;
+      margin-bottom: 50px;
+
+      img {
+        position: relative;
+        background: white;
+        width: 47px;
+        height: 40px;
+        top: 20px;
+      }
+    }
+
+    h3 {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      height: 300px;
+      overflow-y: scroll;
+      li {
+        padding: 10px 15px;
+        border-bottom: 1px solid #f0f0f0;
+
+        &:last-child {
+          border-bottom: none;
+        }
+
+        .media-left {
+          img {
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            margin-right: 10px;
+          }
+        }
+
+        .media-body {
+          position: relative;
+
+          .img-hdcp {
+            position: absolute;
+            right: 0;
+            top: 0;
+            .number {
+              position: absolute;
+              z-index: 1;
+              color: #C6B816;
+              top: 10px;
+              width: 100%;
+              text-align: center;
+              font-size: 12px;
+              left: 0px;
+            }
+          }
+
+          .text {
+            display: inline-block;
+            width: 100%;
+padding-right: 40px;
+            p {
+              margin-bottom: 0;
+              font-size: 12px;
+              color: #9B9B9B;
+            }
+
+            h4 {
+              margin-top: 0;
+              margin-bottom: 5px;
+              font-size: 14px;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+}

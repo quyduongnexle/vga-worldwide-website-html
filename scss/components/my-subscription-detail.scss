@@ -1,0 +1,91 @@
+.detail-subscription {
+  background: #F1F1F1;
+
+  .items {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: white;
+    border: 1px solid #eee;
+    border-bottom: 2px solid #eee;
+
+    h4 {
+      font-size: 20px;
+      padding: 20px;
+      text-align: center;
+      margin: 0;
+    }
+
+    .price {
+      background: #35A211;
+      color: white;
+      padding: 23px 10px;
+      text-align: center;
+      font-size: 25px;
+      p {
+        margin-bottom: 0px;
+        span {
+          font-size: 35px;
+        }
+      }
+    }
+
+    .advertising {
+      list-style: none;
+      padding: 0 40px;
+      margin: 15px 0 30px;
+
+      li {
+        height: 60px;
+        line-height: 60px;
+        display: inline-block;
+        width: 100%;
+        color: #9B9B9B;
+
+        span {
+          float: right;
+          color: #333;
+          font-weight: bold;
+        }
+
+        &.line-border {
+          height: 1px;
+          width: 100%;
+          background: #f0f0f0;
+        }
+      }
+    }
+
+    .linegofl {
+      height: 1px;
+      width: 100%;
+      background: #f0f0f0;
+      text-align: center;
+
+      img {
+        display: inline-block;
+        width: 40px;
+        position: relative;
+        top: -20px;
+      }
+    }
+
+    .expired {
+      list-style: none;
+      padding: 25px 40px;
+      margin: 15px 0 0;
+      display: inline-block;
+      width: 100%;
+
+      li {
+        float: left;
+        color: #9B9B9B;
+        font-size: 15px;
+
+        &.date {
+          float: right;
+          color: #D0021B;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.form-group {
+        .w-full {
+                position: relative;
+        }
+}
+ul {
+        &.lists-member {
+                display: inline-block;
+                width: 100%;
+                list-style: none;
+                padding: 0px;
+                margin: 0px;
+          li {
+            float: left;
+            margin-right: 10px;
+
+            a {
+              background: #35A211;
+              color: white;
+              border-radius: 10px;
+              font-size: 12px;
+              padding: 5px 8px;
+              display: inline-block;
+              margin-top: 10px;
+
+              &:hover {
+                text-decoration: none;
+                background: #30930F;
+              }
+            }
+          }
+        }
+      }
+      .dropdown-menu {
+        position: absolute;
+        top: 45px;
+        border: 1px solid #E0E0E0;
+      }

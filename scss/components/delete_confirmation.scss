@@ -1,0 +1,43 @@
+.delete_confirmation {
+  h2 {
+    font-size: 36px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    font-weight: normal;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+
+  .linegofl {
+    width: 100%;
+    border-bottom: 1px solid #E0E0E0;
+    float: left;
+    position: relative;
+    margin-bottom: 75px;
+    text-align: center;
+  }
+
+  .content {
+    p {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      font-size: 18px;
+      color: #7D7D7D;
+    }
+  }
+
+  .btn-submit {
+    text-align: center;
+    margin: 35px 0;
+
+    a {
+      width: 150px;
+    }
+  }
+}

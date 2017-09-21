@@ -1,0 +1,33 @@
+#my-advertising {
+  .box-shop {
+    margin-bottom: 30px;
+    float: none;
+    display: inline-block;
+    width: 100%;
+    .item {
+      img {
+        max-width: 100%;
+      }
+    }
+
+    .content-title {
+      padding: 10px 15px;
+
+      .title {
+        padding: 5px 0 10px;
+      }
+
+      .pire-content {
+        span {
+          padding: 0;
+        }
+      }
+
+      .icon-content {
+        i {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}

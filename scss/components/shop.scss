@@ -1,0 +1,157 @@
+.shop
+{
+
+
+	.row
+	{
+
+
+		div
+		{
+			.row-comming
+			{
+				padding: 30px 0px;
+				p
+				{
+					font-size: 36px;
+					text-align: center;
+					position: relative;
+					width: 100%;
+					font-weight: normal;
+					color: #000;
+					text-transform: uppercase;
+				}
+				.linegofl
+				{
+					width: 100%;
+					border-bottom: 1px solid #E0E0E0;
+					height: 45px;
+					float: left;
+					position: relative;
+					margin-bottom: 50px;
+					img
+					{
+						width: 71px;
+						height: 60px;
+						position: absolute;
+						left: 46.5%;
+						top: 2px;
+						background-color: #fff;
+						padding: 0px;
+					}
+				}
+
+			}
+
+		}
+
+		.search, .category
+		{
+			.input-lg {
+				border-radius: 0px;
+				font-size: 14px;
+			}
+		}
+		.search
+		{
+			.input-lg {
+
+			}
+		}
+		.category
+		{
+			.input-lg {
+
+			}
+		}
+		.btn-sign
+		{
+			margin-bottom: 20px;
+			.btn-success {
+				border-radius: 20px;
+				padding: 10px 52px;
+				background-color: #35A211;
+				border-color: #35A211;
+				float: right;
+			}
+		}
+	}
+
+}
+.shop-category
+{
+	.row
+	{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+}
+.box-shop
+{
+	margin-bottom: 30px;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, .2);
+	position: relative;
+	float: left;
+	.item
+	{
+		img
+		{
+			width: 100%;
+		}
+	}
+	.content-title
+	{
+		background-color: #fff;
+		position: relative;
+		float: left;
+		.title
+		{
+			font-size: 16px;
+			padding: 15px 15px 0px 15px;
+			position: relative;
+			float: left;
+		}
+		.pire-content
+		{
+			position: relative;
+			width: 70%;
+			float: left;
+			span
+			{
+				font-size: 20px;
+				padding: 10px 15px;
+				position: relative;
+				float: left;
+				color: #D0011B;
+			}
+		}
+		.icon-content
+		{
+			position: relative;
+			width: 30%;
+			float: left;
+			padding: 0px 0px;
+			.shoping
+			{
+				width: 30px;
+				height: 30px;
+				margin-right: 10px;
+				background-image: url(../images/shoping.svg);
+			}
+			.line
+			{
+				width: 45px;
+				height: 30px;
+				background-image: url(../images/line.svg);
+			}
+			i
+			{
+				position: relative;
+				float: right;
+				padding: 0px 0px 15px 0px;
+				margin-top: 10px;
+			}
+		}
+	}
+
+}

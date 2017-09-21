@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="20px" viewBox="0 0 18 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_user</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="HomePage" transform="translate(-888.000000, -1894.000000)" stroke="#818181">
+            <g id="Upcoming" transform="translate(0.000000, 1368.000000)">
+                <g id="Group-9" transform="translate(70.000000, 114.000000)">
+                    <g id="Group-2" transform="translate(819.000000, 412.000000)">
+                        <g id="icon_user" transform="translate(0.000000, 1.000000)">
+                            <path d="M5.3336,11.19984 L0.7768,13.93424 C0.2952,14.22304 0,14.74384 0,15.30624 L0,17.59984 L16,17.59984 L16,15.30624 C16,14.74384 15.7048,14.22304 15.2232,13.93424 L10.6624,11.19744" id="Stroke-5834"></path>
+                            <path d="M3.20992,5.40184 C3.96912,6.02504 4.94112,6.40024 5.99952,6.40024 C7.77792,6.40024 9.30592,5.34344 9.99952,3.82504 C10.53072,4.98744 11.55312,5.87464 12.79952,6.22824" id="Stroke-5835"></path>
+                            <path d="M7.99992,12 L7.99992,12 C5.34872,12 3.19992,9.8512 3.19992,7.2 L3.19992,4.8 C3.19992,2.1488 5.34872,0 7.99992,0 L7.99992,0 C10.65112,0 12.79992,2.1488 12.79992,4.8 L12.79992,7.2 C12.79992,9.8512 10.65112,12 7.99992,12 L7.99992,12 Z" id="Stroke-5836"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

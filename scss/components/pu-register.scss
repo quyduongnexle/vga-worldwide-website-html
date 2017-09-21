@@ -1,0 +1,84 @@
+.pu-register
+{
+
+	.row 
+	{
+		div
+		{
+			
+			.title-right {
+				font-size: 24px;
+				text-align: left;
+				position: relative;
+				float: left;
+				margin-top: 35px;
+			}
+			span {
+				position: relative;
+				float: left;
+				color: #818181;
+				font-size: 14px;
+				width: 100%;
+				.icon-location {
+					background-image: url(../images/icon_location.svg);
+					background-repeat: no-repeat;
+					width: 25px;
+					height: 30px;
+					position: relative;
+					float: left;
+				}
+			}
+			.Prize {
+				padding: 0px;
+				margin: 0px;
+				position: relative;
+				float: left;
+				width: 100%;
+				margin-top: 15px;
+				li {
+					list-style: none;
+					float: left;
+					color: #818181;
+					font-size: 14px;
+					b {
+						color: #D0021B;
+						font-size: 20px;
+						position: relative;
+						padding: 0px 15px;
+						top: -2px;
+						font-weight: normal;
+					}
+				}
+			}
+			p 
+			{
+				position: relative;
+				float: left;
+				width: 100%;
+			}
+			.question
+			{
+				margin: 15px 0px;
+				span 
+				{
+					color: #333333;
+					margin-bottom: 15px;
+				}
+				ul 
+				{
+					padding: 0px;
+					li 
+					{
+						list-style: none;
+						float: left;
+						padding-right: 10px;
+					}
+				}
+			}
+		}
+		.btn-sign
+		{
+			margin-bottom: 30px;
+		}
+	}
+}

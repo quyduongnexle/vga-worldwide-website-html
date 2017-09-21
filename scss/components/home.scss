@@ -1,0 +1,422 @@
+.sp-content
+{
+	position: relative;
+	top: -260px;
+	padding: 0px;
+	.box
+	{
+		box-shadow: 0px 2px 6px rgba(0, 0, 0, .2);
+		position: relative;
+		float: left;
+		.item
+		{
+			img
+			{
+				width: 100%;
+			}
+		}
+		.content-title
+		{
+			background-color: #fff;
+			position: relative;
+			float: left;
+			.title
+			{
+				font-size: 16px;
+				padding: 10px 5px;
+				position: relative;
+				float: left;
+			}
+			.pire-content
+			{
+				position: relative;
+				width: 70%;
+				float: left;
+				span
+				{
+					font-size: 20px;
+					padding: 10px 5px;
+					position: relative;
+					float: left;
+					color: #D0011B;
+				}
+			}
+			.icon-content
+			{
+				position: relative;
+				width: 30%;
+				float: left;
+				padding: 0px 0px;
+				.shoping
+				{
+					width: 30px;
+					height: 30px;
+					background-image: url(../images/shoping.svg);
+				}
+				.line
+				{
+					width: 45px;
+					height: 30px;
+					background-image: url(../images/line.svg);
+				}
+				i
+				{
+					position: relative;
+					float: right;
+					padding: 0px 0px;
+					margin-top: 5px;
+				}
+			}
+		}
+
+	}
+}
+.About-page
+{
+	background-image: url(../images/bg-world.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	width: 100%;
+	height: auto;
+	top: 0px;
+	.opacity
+	{
+		background-color: #000;
+		opacity: 0.8;
+		position: absolute;
+		float: left;
+		width: 100%;
+		height: 100%;
+		left: 0px;
+		top: 0px;
+		z-index: 1;
+	}
+	.container
+	{
+		.row
+		{
+			.bg
+			{
+				background: none;
+
+				h2
+				{
+					font-size: 32px;
+					text-transform: uppercase;
+					color: #fff;
+					position: relative;
+					width: 100%;
+					text-align: center;
+					z-index: 2;
+					font-weight: normal;
+					margin: 0px 0px 30px 0px;
+				}
+				.line
+				{
+					position: relative;
+					float: left;
+					width: 20%;
+					text-align: center;
+					border-bottom: 1px solid #fff;
+					left: 39%;
+					z-index: 2;
+					margin: 0px 0px 100px 0px;
+				}
+
+				.col
+
+				{
+					position: relative;
+					float: left;
+					width: 100%;
+					margin: 0px 0px 100px 0px;
+					.col01
+					{
+						z-index: 2;
+						text-align: center;
+						span
+						{
+							color: #fff;
+							font-size: 60px;
+
+						}
+						p
+						{
+							color: #fff;
+							font-size: 20px;
+							font-weight: normal;
+						}
+					}
+				}
+
+
+			}
+		}
+	}
+}
+
+.Upcoming
+{
+	top: 0px;
+	position: relative;
+	margin: 0px auto 0px;
+	.row
+	{
+		div
+		{
+
+
+			.btn-comming-right
+			{
+				position: relative;
+				float: left;
+				width: 100%;
+				ul
+				{
+					padding: 0px;
+					margin: 0px;
+					li
+					{
+
+						img
+						{
+
+						}
+						list-style: none;
+						float: left;
+
+
+					}
+					.text-title
+					{
+						font-size: 30px;
+						color: #D0021B;
+						padding-left: 15px;
+						font-weight: normal;
+						padding-top: 12px;
+					}
+					.btn
+					{
+						position: relative;
+						float: right;
+						button
+						{
+							color: #fff;
+							border-radius: 30px;
+							padding: 10px 30px;
+							font-size: 18px;
+							font-weight: normal;
+							background-color: #35A211;
+							border: 0px;
+						}
+					}
+				}
+
+			}
+			.title-right
+			{
+				font-size: 24px;
+				text-align: left;
+				position: relative;
+				float: left;
+				margin-top: 35px;
+			}
+			span
+			{
+				position: relative;
+				float: left;
+				width: 100%;
+				color: #818181;
+				font-size: 14px;
+				.icon-location
+				{
+					background-image: url(../images/icon_location.svg);
+					background-repeat: no-repeat;
+					width: 25px;
+					height: 30px;
+					position: relative;
+					float: left;
+				}
+			}
+			.Prize
+			{
+				padding: 0px;
+				margin: 0px;
+				position: relative;
+				float: left;
+				width: 100%;
+				margin-top: 20px;
+				li
+				{
+					list-style: none;
+					float: left;
+					color: #818181;
+					font-size: 14px;
+					.icon-uer
+					{
+						background-image: url(../images/icon_user.svg);
+						background-repeat: no-repeat;
+						width: 25px;
+						height: 30px;
+						position: relative;
+						float: left;
+						margin-left: 20px;
+					}
+					b
+					{
+						color: #D0021B;
+						font-size: 20px;
+						position: relative;
+						padding: 0px 15px;
+						top: -8px;
+						font-weight: normal;
+					}
+				}
+			}
+			p
+			{
+				color: #000;
+				font-size: 14px;
+			}
+		}
+	}
+}
+.world
+{
+	background-image: url(../images/bg-world.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	float: left;
+	width: 100%;
+	height: auto;
+	top: 0px;
+	margin-bottom: 20px;
+	.opacity
+	{
+		background-color: #000;
+		opacity: 0.8;
+		position: absolute;
+		float: left;
+		width: 100%;
+		height: 100%;
+		left: 0px;
+		top: 0px;
+		z-index: 1;
+	}
+	.container
+	{
+		.row
+		{
+			.title-worls
+			{
+				position: relative;
+				margin: 40px  0px;
+				float: left;
+				width: 100%;
+				h2 {
+					font-size: 22px;
+					text-transform: uppercase;
+					color: #fff;
+					position: relative;
+					width: 100%;
+					float: left;
+					text-align: center;
+					z-index: 2;
+					font-weight: normal;
+				}
+				.line {
+					position: relative;
+					float: left;
+					width: 20%;
+					text-align: center;
+					border-bottom: 1px solid #fff;
+					left: 40%;
+					z-index: 2;
+				}
+			}
+			.bg-world
+			{
+				.col-md-4
+				{
+					z-index: 2;
+				}
+				div
+				{
+
+					.box
+					{
+						box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+						position: relative;
+						float: left;
+						background-color: #fff;
+						margin-bottom: 20px;
+						.item
+						{
+							img
+							{
+								width: 100%;
+							}
+						}
+						.title
+						{
+							font-size: 16px;
+							padding: 15px 15px 0px 15px;
+							float: left;
+							width: 100%;
+
+						}
+						.group-item
+						{
+
+							i
+							{
+								background-image: url(../images/icon-People.svg);
+								background-repeat: no-repeat;
+								width: 25px;
+								height: 19px;
+								position: relative;
+								float: left;
+								margin-left: 0px;
+								bottom: 3px;
+							}
+						}
+						p
+						{
+							font-size: 14px;
+							color: #B5B5B5;
+							padding: 0px 15px 15px 15px;
+							float: left;
+							width: 100%;
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+}
+
+.sign-up
+{
+	.row
+	{
+		div
+		{
+			form
+			{
+				.row
+				{
+					div
+					{
+						.checkbox
+						{
+							position: relative;
+							float: left;
+						}
+					}
+				}
+			}
+		}
+	}
+}

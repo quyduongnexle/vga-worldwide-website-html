@@ -1,0 +1,154 @@
+.Subcription
+{
+	background-color: #F1F1F1;
+	.container
+	{
+		.row
+		{
+			div
+			{
+				.no-subcription
+				{    text-align: center;
+					position: relative;
+					width: 100%;
+					float: left;
+					padding: 20% 0px;
+					ul
+					{
+						padding: 0px;
+						text-align: center;
+						position: relative;
+						li
+						{
+							position: relative;
+							padding: 8px 0px;
+							list-style: none;
+							text-align: center;
+						}
+						.line-b
+						{
+							display: block;
+							span
+							{
+								position: relative;
+								list-style: none;
+								text-align: center;
+								width: 20%;
+								height: 5px;
+								border-radius: 5px;
+								background-color: #D8D8D8;
+								display: block;
+								margin: auto;
+							}
+
+						}
+						.line-n
+						{
+							span
+							{
+								position: relative;
+								list-style: none;
+								text-align: center;
+								width: 14%;
+								height: 5px;
+								border-radius: 5px;
+								background-color: #D8D8D8;
+								display: block;
+								margin: auto;
+							}
+						}
+						.text-m
+						{
+							color: #CCCCCC;
+							font-size: 25px;
+						}
+						.text-link
+						{
+							a
+							{
+								color: #214FF1;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+/*---------------pu -------------------------*/
+.modal
+{
+	.modal-dialog
+	{
+		.modal-content
+		{
+			.modal-header
+			{
+
+				.modal-title
+				{
+
+				}
+				a
+				{
+
+				}
+			}
+			.modal-body
+			{
+				.row
+				{
+					.linegofl
+					{
+						width: 100%;
+						border-bottom: 1px solid #E0E0E0;
+						height: 45px;
+						float: left;
+						position: relative;
+						margin-bottom: 50px;
+						img
+						{
+							width: 71px;
+							height: 60px;
+							position: absolute;
+							left: 43%;
+							top: 2px;
+							background-color: #fff;
+							padding: 0px;
+						}
+					}
+					.drop-list
+					{
+						position: relative;
+						float: left;
+						width: 100%;
+						padding: 0px 45px;
+						button {
+							width: 100%;
+							text-align: left;
+							padding: 12px 16px;
+							border-radius: 0px;
+							color: #9B9B9B;
+							span {
+								float: right;
+								top: 8px;
+								position: relative;
+							}
+						}
+					}
+					.checkbox-th
+					{
+						position: relative;
+						float: left;
+						width: 100%;
+						padding: 15px 45px;
+						.checkbox
+						{
+							border-bottom: 1px solid #ccc;
+						}
+					}
+				}
+			}
+		}
+	}
+}

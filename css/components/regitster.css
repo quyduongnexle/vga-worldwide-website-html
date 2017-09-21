@@ -1,0 +1,225 @@
+.sign-up {
+  top: 0px;
+  position: relative;
+  margin-bottom: 0px;
+  background-color: #EAEAEA; }
+  .sign-up .row div .text-content-footer {
+    float: right; }
+  .sign-up .row div .link-footer a {
+    color: #9B9B9B;
+    font-size: 11px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    float: left;
+    margin: 15px 0px; }
+  .sign-up .row .bg-sign {
+    background-color: #fff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 1px solid #E0E0E0; }
+    .sign-up .row .bg-sign form .row div .form-group .btn-group {
+      width: 100%; }
+      .sign-up .row .bg-sign form .row div .form-group .btn-group button {
+        padding-left: 90%; }
+    .sign-up .row .bg-sign form .form-group .react-tel-input {
+      padding: 0px;
+      border: 0px;
+      margin-bottom: 25px; }
+      .sign-up .row .bg-sign form .form-group .react-tel-input input {
+        padding: 0px;
+        height: 45px;
+        border-radius: 0px; }
+      .sign-up .row .bg-sign form .form-group .react-tel-input .flag-dropdown {
+        position: absolute;
+        top: 0px;
+        width: 45px;
+        background-color: #fff;
+        height: 45px; }
+        .sign-up .row .bg-sign form .form-group .react-tel-input .flag-dropdown .selected-flag {
+          top: 8px; }
+        .sign-up .row .bg-sign form .form-group .react-tel-input .flag-dropdown .country-list {
+          top: 44px;
+          width: 300px; }
+    .sign-up .row .bg-sign .row-one {
+      padding: 30px 0px; }
+      .sign-up .row .bg-sign .row-one p {
+        font-size: 36px;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        font-weight: normal;
+        color: #000;
+        text-transform: uppercase; }
+      .sign-up .row .bg-sign .row-one .linegofl {
+        width: 100%;
+        border-bottom: 1px solid #E0E0E0;
+        height: 45px;
+        float: left;
+        position: relative;
+        margin-bottom: 50px; }
+        .sign-up .row .bg-sign .row-one .linegofl img {
+          width: 71px;
+          height: 60px;
+          position: absolute;
+          left: 46%;
+          top: 2px;
+          background-color: #fff;
+          padding: 0px; }
+    .sign-up .row .bg-sign form span b {
+      color: #35A211;
+      font-weight: normal; }
+    .sign-up .row .bg-sign form span i {
+      color: #35A211; }
+    .sign-up .row .bg-sign form .form-group .input-lg {
+      border-radius: 0px; }
+    .sign-up .row .bg-sign form .row .btn-sign {
+      text-align: center; }
+      .sign-up .row .bg-sign form .row .btn-sign .btn-success {
+        border-radius: 20px;
+        padding: 10px 30px;
+        background-color: #35A211;
+        border-color: #35A211; }
+    .sign-up .row .bg-sign form .row div .form-group .input-lg {
+      border-radius: 0px;
+      border: 1px solid #E0E0E0; }
+    .sign-up .row .bg-sign form .row div .form-group .navbar-nav {
+      border: 1px solid #ccc;
+      padding: 11px;
+      position: relative;
+      float: left;
+      width: 100%; }
+      .sign-up .row .bg-sign form .row div .form-group .navbar-nav li {
+        list-style: none;
+        width: 100%;
+        position: relative;
+        float: left; }
+        .sign-up .row .bg-sign form .row div .form-group .navbar-nav li a {
+          width: 100%;
+          position: relative;
+          float: left;
+          padding: 0px; }
+          .sign-up .row .bg-sign form .row div .form-group .navbar-nav li a i {
+            padding-left: 5px;
+            position: absolute;
+            right: 0px; }
+      .sign-up .row .bg-sign form .row div .form-group .navbar-nav .dropdown a {
+        color: #9B9B9B;
+        padding-left: 6px;
+        font-size: 14px; }
+        .sign-up .row .bg-sign form .row div .form-group .navbar-nav .dropdown a i {
+          padding-left: 5px; }
+      .sign-up .row .bg-sign form .row div .form-group .navbar-nav .dropdown .dropdown-menu {
+        width: 100%;
+        padding: 12px 5px; }
+
+.btn-group, .btn-group-vertical {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle; }
+
+.open > .dropdown-menu {
+  display: block;
+  width: 100%;
+  border-radius: 0px;
+  margin: 0px; }
+
+.drop {
+  margin-bottom: 15px; }
+  .drop .drop-list {
+    width: 100%;
+    position: relative;
+    float: left; }
+    .drop .drop-list button {
+      width: 100%;
+      text-align: left;
+      padding: 12px 16px;
+      border-radius: 0px;
+      color: #9B9B9B; }
+      .drop .drop-list button span {
+        float: right;
+        top: 8px;
+        position: relative; }
+    .drop .drop-list button:hover {
+      background-color: transparent; }
+
+.open > .dropdown-toggle.btn-default.focus,
+.open > .dropdown-toggle.btn-default:focus,
+.open > .dropdown-toggle.btn-default:hover {
+  background-color: transparent; }
+
+.checkbox label:after,
+.radio label:after {
+  content: '';
+  display: table;
+  clear: both; }
+
+.checkbox .cr,
+.radio .cr {
+  position: relative;
+  display: inline-block;
+  border: 1px solid #a9a9a9;
+  border-radius: 0px;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-right: 10px; }
+
+.checkbox-th .checkbox {
+  margin-bottom: 0px;
+  margin-top: 0px; }
+  .checkbox-th .checkbox label {
+    padding-left: 0px;
+    font-size: 2.5em; }
+    .checkbox-th .checkbox label b {
+      font-size: 14px;
+      font-weight: normal;
+      position: relative;
+      float: left;
+      top: 5px; }
+
+.checkbox-th .radio .cr {
+  border-radius: 50%; }
+
+.checkbox-th .checkbox .cr .cr-icon,
+.checkbox-th .radio .cr .cr-icon {
+  position: absolute;
+  font-size: .8em;
+  line-height: 0;
+  top: 50%;
+  left: 0%; }
+
+.checkbox-th .radio .cr .cr-icon {
+  margin-left: 0.04em; }
+
+.checkbox-th .checkbox label input[type="checkbox"],
+.checkbox-th .radio label input[type="radio"] {
+  display: none; }
+
+.checkbox-th .checkbox label input[type="checkbox"] + .cr > .cr-icon,
+.checkbox-th .radio label input[type="radio"] + .cr > .cr-icon {
+  -webkit-transform: scale(3) rotateZ(-20deg);
+  -ms-transform: scale(3) rotate(-20deg);
+  transform: scale(3) rotateZ(-20deg);
+  opacity: 0;
+  -webkit-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in; }
+
+.checkbox-th .checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
+.checkbox-th .radio label input[type="radio"]:checked + .cr > .cr-icon {
+  -webkit-transform: scale(1) rotateZ(0deg);
+  -ms-transform: scale(1) rotate(0deg);
+  transform: scale(1) rotateZ(0deg);
+  opacity: 1; }
+
+.checkbox-th .checkbox label input[type="checkbox"]:disabled + .cr,
+.checkbox-th .radio label input[type="radio"]:disabled + .cr {
+  opacity: .5; }
+
+.text-condition {
+  text-align: left;
+  width: 100%;
+  position: relative; }
+  .text-condition b {
+    font-family: "istok_webbold"; }

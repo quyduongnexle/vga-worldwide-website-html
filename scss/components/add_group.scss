@@ -1,0 +1,73 @@
+.add_group {
+        top: 0;
+        position: relative;
+        margin-bottom: 0;
+        background-color: #EAEAEA;
+      h2 {
+              text-align: center;
+              padding: 40px 0px;
+              margin: 0px;
+      }
+        .wrap-from {
+          background: white;
+          padding: 0px 0px 40px 0px;
+        }
+      
+        .wrap-input {
+          padding: 0px 40px 20px 40px;
+          display: inline-block;
+          width: 100%;
+      
+          .form-group {
+            input {
+              box-shadow: none;
+              border: 1px solid #E0E0E0;
+              margin-top: 20px;
+              border-radius: 0;
+            }
+      
+            .w-full {
+              position: relative;
+            }
+          }
+      
+          form {
+            padding: 0 60px 30px;
+          }
+        }
+      
+        ul {
+          &.lists-member {
+            display: inline-block;
+            width: 100%;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+      
+            li {
+              float: left;
+              margin-right: 10px;
+      
+              a {
+                background: #EEEEEE;
+                color: white;
+                font-size: 12px;
+                padding: 10px 20px;
+                display: inline-block;
+                margin-top: 10px;
+      
+                &:hover {
+                  text-decoration: none;
+                  background: #30930F;
+                }
+              }
+            }
+          }
+        }
+      
+        .dropdown-menu {
+          position: absolute;
+          top: 45px;
+          border: 1px solid #E0E0E0;
+        }
+      }

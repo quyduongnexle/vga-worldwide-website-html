@@ -1,0 +1,273 @@
+.clubcharity-detail
+{
+	margin-top: 20px;
+	margin-bottom: 4%;
+	.row
+	{
+		div
+		{
+			span
+			{
+				font-size: 14px;
+				color: #444444;
+				i
+				{
+					padding-right: 15px;
+				}
+			}
+			.title-right {
+				margin-bottom: 20px;
+				margin-top: 10px;
+			}
+			.btn-comming-right
+			{
+				position: relative;
+				float: left;
+				width: 100%;
+				ul
+				{
+					padding: 0px;
+					margin: 0px;
+					li
+					{
+						float: left;
+						width: 100%;
+						text-align: center;
+						list-style: none;
+						img
+						{
+							padding-left: 10%;
+							position: relative;
+							width: auto;
+						}
+					}
+					.text-title {
+						font-size: 25px;
+
+					}
+					.btn
+					{
+						position: relative;
+						float: left;
+						left: 8%;
+						button
+						{
+							color: #fff;
+							border-radius: 30px;
+							padding: 10px 30px;
+							font-size: 18px;
+							font-weight: normal;
+							background-color: #35A211;
+							border: 0px;
+						}
+					}
+				}
+			}
+			.Prize
+			{
+				margin-top: 25px;
+				li
+				{
+
+					.icon-uer
+					{
+
+					}
+					b
+					{
+						top: 10px;
+					}
+					button
+					{
+						color: #000;
+						border-radius: 30px;
+						padding: 10px 30px;
+						font-size: 18px;
+						font-weight: normal;
+						background-color: #F8E71C;
+						border: 0px;
+						i
+						{
+							padding-right: 5px;
+						}
+					}
+
+				}
+				.text
+				{
+					padding-top: 15px;
+					padding-left: 20px;
+				}
+			}
+		}
+		.slider-deital
+		{
+			margin-bottom: 50px;
+			.slide
+			{
+				.carousel-indicators
+				{
+					bottom: -50px;
+				}
+			}
+		}
+	}
+}
+/*---------------pu -------------------------*/
+.modal
+{
+	.modal-dialog
+	{
+		.modal-content
+		{
+			.modal-header
+			{
+				border-bottom: 0px;
+				.modal-title
+				{
+					text-align: center;
+					font-size: 36px;
+				}
+				a
+				{
+					color: #444444;
+				}
+			}
+			.modal-body
+			{
+				.row
+				{
+					.tab
+					{
+						ul
+						{
+							text-align: center;
+							li
+							{
+								display: inline-block;
+								float: none;
+								a
+								{
+									color: #9B9B9B;
+								}
+							}
+							.line
+							{
+								position: relative;
+								border-right: 1px solid #ccc;
+								height: 30px;
+
+								width: 1px;
+								top: 5px;
+							}
+						}
+						.nav-tabs
+						{
+							border-bottom: 0px;
+							margin-bottom: 30px;
+							.active
+							{
+								a
+								{
+									border: 0px;
+									text-decoration: underline;
+
+									color: #35A211;
+								}
+								a:hover
+								{
+									background-color: transparent;
+
+
+								}
+							}
+						}
+						.linegofl
+						{
+							width: 100%;
+							border-bottom: 1px solid #E0E0E0;
+							height: 45px;
+							float: left;
+							position: relative;
+							margin-bottom: 50px;
+							img
+							{
+								width: 71px;
+								height: 60px;
+								position: absolute;
+								left: 43%;
+								top: 2px;
+								background-color: #fff;
+								padding: 0px;
+							}
+						}
+						.tab-content
+						{
+							.tab-pane
+							{
+								.row
+								{
+									padding: 0px 20px;
+									h3
+									{
+										font-size: 20px;
+										margin-bottom: 30px;
+										margin-top: 25px;
+										padding-left: 20px;
+									}
+									.col
+									{
+
+										img, span, input
+										{
+											position: relative;
+											float: left;
+											text-align: center;
+										}
+										img
+										{
+											height: 65px;
+											padding-left: 30%;
+										}
+										span
+										{
+											width: 100%;
+											margin: 10px 0px;
+										}
+										input
+										{
+											left: 47%;
+										}
+									}
+									.text-box
+									{
+										position: relative;
+										float: left;
+										width: 100%;
+										padding: 20px;
+										input
+										{
+											border-radius: 0px;
+											font-size: 14px;
+										}
+									}
+									.btn-sign {
+										text-align: center;
+										margin-bottom: 10px;
+										margin-top: 30px;
+										.btn-success {
+											border-radius: 20px;
+											padding: 10px 30px;
+											background-color: #35A211;
+											border-color: #35A211;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
